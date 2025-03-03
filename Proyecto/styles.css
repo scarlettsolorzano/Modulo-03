@@ -1,89 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-body{
+body {
     height: 100vh;
     display: flex;
     margin: 0;
-    font-family: "Montserrat", serif;
-
+    font-family: "Montserrat", sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     width: 100%;
     height: 100vh;
 }
 
-.form-container{
+.form-container {
     width: 50%;
-    background-color: #161627;
+    background-color: #36366a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.image-container{
+.image-container {
     width: 50%;
-    background: url('https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    background: url('https://periodicadventures.com/wp-content/uploads/2022/03/Universal-Orlando-128-scaled.jpg') no-repeat center center/cover;
 }
 
-.login-container{
-   display: flex;
-   flex-direction: column;
-   background-color: white;
-   padding: 20px;
-   width: 30vw;
-   border-radius: 15px;
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 15px;
 }
 
-label{
+label {
     font-size: 12px;
 }
 
-input{
+input {
     width: 95%;
-    padding: 2px;
-    margin: 5px 0px;
+    padding: 5px;
+    margin: 5px 0;
 }
 
-button{
+button {
     width: 50%;
     height: 5vh;
     margin-top: 7px;
     margin-left: 25%;
     cursor: pointer;
     border: none;
-    background-color: #161627 ;
+    background-color: #161627;
     color: white;
     border-radius: 15px;
 }
 
-button:hover{
+button:hover {
     background-color: #1f1f3d;
     transform: scale(1.05);
 }
 
-.error{
+.error {
     color: red;
     font-size: 12px;
     margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.commet{
-    background-color: white;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
-
-}
-
-
-
-.user.image{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
 }
